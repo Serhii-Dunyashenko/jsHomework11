@@ -25,7 +25,7 @@ const names = ["Andrew", "Jane", "Alan", "Kate", "Serhii"];
 let keyLetter = prompt("Enter the letter");
 const namesFound = names.filter(element => element[0] === keyLetter);
        
-console.log(namesFound); // Names found as an array
+console.log(namesFound);  // Names found as an array
       
 for (let index = 0; index < namesFound.length; index++) {   // Names found as a separate console logs 
     console.log(namesFound[index]); 
