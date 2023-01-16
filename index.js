@@ -24,11 +24,17 @@ if (firstArray.toString() === secondArray.toString()) {
 const names = ["Andrew", "Jane", "Alan", "Kate", "Serhii"];
 let keyLetter = prompt("Enter the letter");
 const namesFound = names.filter(element => element[0] === keyLetter);
-
-// Names found array type
-console.log(namesFound); 
- 
-// Names found as separate console logs 
-for (let index = 0; index < namesFound.length; index++) {
+       
+console.log(namesFound); // Names found as an array
+      
+for (let index = 0; index < namesFound.length; index++) {   // Names found as a separate console logs 
     console.log(namesFound[index]); 
 }
+
+// Word search
+
+const inTheEnd = [ "I tried so hard", "And got so far", "But in the end", "It doesn't even matter"];
+const keyWord = "And";
+
+let phraseFound = inTheEnd.find(element=> element.includes(keyWord));
+console.log(phraseFound);
