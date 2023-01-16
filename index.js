@@ -1,3 +1,5 @@
+// 1. Equal items filter
+
 let array = ['one', 'two', 'three', 'three'];
 
 let filteredArray = array.filter((element, index) => {
@@ -5,3 +7,4 @@ let filteredArray = array.filter((element, index) => {
 });
 
 console.log(filteredArray);
+
